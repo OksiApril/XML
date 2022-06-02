@@ -1,1 +1,17 @@
-Hello
+<?xml version="1.0" encoding="UTF-8" ?>
+	<ID>Баг</ID>
+	<Severity>Низкая</Severity>
+	<Description>В окне “Редактирование фото” текст кнопок “Редактировать” и “Альтернативный текст” выходит за рамки, на странице https://www.linkedin.com/feed/?trk=nav_back_to_linkedin</Description>
+	<Preface>
+	<Step 1>Открыть страницу https://www.linkedin.com</Step 1>
+	<Step 2>Ввести корректно логин и пароль в форме</Step 2>
+	</Preface>
+	<Steps to reproduce>
+		<Step 1>Нажать на кнопку Фото</Step 1>
+		<Step 2>Выбрать любое фото из галереи на ПК</Step 2>
+		<Step 3>Нажать на кнопку Открыть</Step 3>
+		<Step 4>В окне Редактирование фото обратить внимание на кнопки Редактировать и Альтернативный текст</Step 4>
+	</Steps to reproduce>
+	<Expected Result>Текст кнопок не выходит за рамки</Expected Result>
+	<Actual Result>Текст кнопок выходит за рамки</Actual Result>
+	<Environment>Google Chrome Версия 97.0.4692.99 (Официальная сборка) (64-bit) при разрешении экранов 1920x1080 и 1280х720, OC Windows 10 Pro 20H2; Яндекс.Браузер Версия 22.1.1.1544 (64-bit) при разрешении экранов 1920x1080 и 1280х720, OC Windows 10 Pro 20H2; Firefox Browser Версия 96.0.2 (64-bit) при разрешении экранов 1920x1080 и 1280х720, OC Windows 10 Pro 20H2</Environment>
